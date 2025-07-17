@@ -1,0 +1,36 @@
+{
+  "name": "officeit-back-end",
+  "version": "1.0.0",
+  "author": "Delwo Athauda",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "vercel-build": "npm run build"
+  },
+  "dependencies": {
+    "@clerk/express": "^1.7.5",
+    "@getbrevo/brevo": "^2.5.0",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.2",
+    "multer": "^2.0.1",
+    "nodemailer": "^7.0.5",
+    "zod": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/mongoose": "^5.11.96",
+    "@types/multer": "^2.0.0",
+    "@types/nodemailer": "^6.4.17",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
